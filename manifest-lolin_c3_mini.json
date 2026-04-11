@@ -1,10 +1,10 @@
 {
-  "version": "4.6.1",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.1/mikiled-lolin_c3_mini.bin",
-  "sha256": "0d739e8683ddb5deb3149f135b80c9fc13d218c59f6c6309998be6361b454b1a",
+  "version": "4.6.2",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.2/mikiled-lolin_c3_mini.bin",
+  "sha256": "547656ff2aa225108b80ae44b7aebb9830e28975f9ac931f32f7defb4cf2015f",
   "notes": [
-    "Release notes now show simplified, user-friendly descriptions of each update",
-    "No functional firmware changes — this is a release pipeline improvement"
+    "You can now re-check for updates even when an update is already showing",
+    "Small UI improvement — no functional firmware changes"
   ],
   "releaseDate": "2026-04-11",
   "updateType": "regular"
