@@ -1,7 +1,7 @@
 {
-  "version": "4.5.0",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.5.0/mikiled-lolin_s2_mini.bin",
-  "sha256": "2aa2a1f52262ad6275efb78c47b287bdd0281a613d16b45227f6d3d36335bf8f",
+  "version": "4.6.0",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.0/mikiled-lolin_s2_mini.bin",
+  "sha256": "3016d981022a0c7c1c7b5e04d476fdc438ecfc933705692e9db83bd9af32b8d4",
   "notes": [
     "Firmware update"
   ],

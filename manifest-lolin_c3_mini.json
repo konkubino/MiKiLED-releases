@@ -1,7 +1,7 @@
 {
-  "version": "4.5.0",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.5.0/mikiled-lolin_c3_mini.bin",
-  "sha256": "0ca5394d2e7e05f8ba48058a2fb18992b6e3df7b963db395dd8126c200d34b93",
+  "version": "4.6.0",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.0/mikiled-lolin_c3_mini.bin",
+  "sha256": "629b72e8de12b95f8b1d4ebb2980403e66b90d3240a9a0a3f81e4bafc8eeb7f7",
   "notes": [
     "Firmware update"
   ],
