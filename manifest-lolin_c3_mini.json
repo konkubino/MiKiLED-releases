@@ -1,11 +1,11 @@
 {
-  "version": "4.6.2",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.2/mikiled-lolin_c3_mini.bin",
-  "sha256": "547656ff2aa225108b80ae44b7aebb9830e28975f9ac931f32f7defb4cf2015f",
+  "version": "4.6.3",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.3/mikiled-lolin_c3_mini.bin",
+  "sha256": "f1caf73a6b65c7e15af702f4cf68bea6a4904f45c385cf583b7395c0e830a096",
   "notes": [
-    "You can now re-check for updates even when an update is already showing",
-    "Small UI improvement — no functional firmware changes"
+    "Critical security update — please install immediately",
+    "Improved visual indicator for urgent updates"
   ],
   "releaseDate": "2026-04-11",
-  "updateType": "regular"
+  "updateType": "critical"
 }

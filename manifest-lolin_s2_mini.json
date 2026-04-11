@@ -1,11 +1,11 @@
 {
-  "version": "4.6.2",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.2/mikiled-lolin_s2_mini.bin",
-  "sha256": "53c4ae7baa4410729ff57abb1d9c8b69061818e40856ec4db4c4279b6b22a830",
+  "version": "4.6.3",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.3/mikiled-lolin_s2_mini.bin",
+  "sha256": "452be722b5e3cfe081ff7db3a03bfb1a0f2e40747c34e8c23d11c6cac064d9ee",
   "notes": [
-    "You can now re-check for updates even when an update is already showing",
-    "Small UI improvement — no functional firmware changes"
+    "Critical security update — please install immediately",
+    "Improved visual indicator for urgent updates"
   ],
   "releaseDate": "2026-04-11",
-  "updateType": "regular"
+  "updateType": "critical"
 }
