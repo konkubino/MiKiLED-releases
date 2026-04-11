@@ -1,19 +1,10 @@
 {
-  "version": "4.6.0",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.0/mikiled-lolin_s2_mini.bin",
-  "sha256": "9c628fdd742656c0a40de5ae338947098c15b72f8a7e85006d3561d6d9798790",
+  "version": "4.6.1",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.1/mikiled-lolin_s2_mini.bin",
+  "sha256": "9d56fce580cad46dfba0c470562b5a0850b9a099301260e4db2ee0cc4c1c7766",
   "notes": [
-    "**OTA firmware updates fixed** — downloads now follow GitHub's HTTP 302 redirects to Azure blob storage; SHA-256 verification handles integrity so TLS cert mismatch on redirect target is safely bypassed",
-    "**Chunked HTML streaming** — web UI page is now streamed in sections instead of built as a single 74 KB string, eliminating heap corruption that garbled CSS and hid the WiFi settings form",
-    "**Real-time OTA progress bar** — download percentage updates live via `/api/otaProgress` polling; shows downloading/verifying/flashing/restarting states with proper error feedback",
-    "**OTA runs as background task** — firmware download moved to a FreeRTOS task on Core 0, keeping the web server responsive during updates",
-    "**Unit tests & CI/CD** — test suites for config validation, time manager, and storage manager; GitHub Actions pipeline with native and cross-compilation checks",
-    "`handleApiInstallUpdate` spawns `otaInstallTask` (16 KB stack, Core 0) instead of blocking the HTTP handler",
-    "`HTTPClient::setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS)` + `WiFiClientSecure::setInsecure()` for binary download",
-    "`WebTemplate::streamPage()` replaces `generatePage()` — uses `server.sendContent()` with chunked transfer encoding",
-    "New endpoint: `GET /api/otaProgress` returns `{state, percent, error}`",
-    "8 new i18n keys (EN+PL) for OTA progress states",
-    "`vTaskDelay(1)` in download loop yields CPU for web server progress polls"
+    "Release notes now show simplified, user-friendly descriptions of each update",
+    "No functional firmware changes — this is a release pipeline improvement"
   ],
   "releaseDate": "2026-04-11",
   "updateType": "regular"
