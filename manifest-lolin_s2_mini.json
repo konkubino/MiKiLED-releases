@@ -1,11 +1,11 @@
 {
-  "version": "4.6.3",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.3/mikiled-lolin_s2_mini.bin",
-  "sha256": "452be722b5e3cfe081ff7db3a03bfb1a0f2e40747c34e8c23d11c6cac064d9ee",
+  "version": "4.6.4",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.4/mikiled-lolin_s2_mini.bin",
+  "sha256": "4b5c650655b58c5420d1da84cd36c33ff23adc74703c779015de694ed5f675ce",
   "notes": [
-    "Critical security update — please install immediately",
-    "Improved visual indicator for urgent updates"
+    "Update popup now closes automatically when you tap \"Install Now\"",
+    "Previously the popup stayed on screen during the update, hiding the progress bar"
   ],
   "releaseDate": "2026-04-11",
-  "updateType": "critical"
+  "updateType": "major"
 }
