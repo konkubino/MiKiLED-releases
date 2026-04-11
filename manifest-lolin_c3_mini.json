@@ -1,9 +1,9 @@
 {
-  "version": "4.4.0",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.4.0/mikiled-lolin_c3_mini.bin",
-  "sha256": "",
+  "version": "4.5.0",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.5.0/mikiled-lolin_c3_mini.bin",
+  "sha256": "0ca5394d2e7e05f8ba48058a2fb18992b6e3df7b963db395dd8126c200d34b93",
   "notes": [
-    "Initial OTA-capable release"
+    "Firmware update"
   ],
   "releaseDate": "2026-04-11",
   "updateType": "regular"
