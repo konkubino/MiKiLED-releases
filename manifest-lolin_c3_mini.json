@@ -1,11 +1,12 @@
 {
-  "version": "4.6.4",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.6.4/mikiled-lolin_c3_mini.bin",
-  "sha256": "6ec1647837107c807c40f96cbdabdca0942a53ccb672b67a0bd610a2c5324f74",
+  "version": "4.7.0",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.7.0/mikiled-lolin_c3_mini.bin",
+  "sha256": "7e0d00557bb4f3e98c93ac31701155e15b63fef5ea69e514faeba7a5aa4036b8",
   "notes": [
-    "Update popup now closes automatically when you tap \"Install Now\"",
-    "Previously the popup stayed on screen during the update, hiding the progress bar"
+    "Choose WS2811 or WS2812B for your LED strip so colors and signal timing match your hardware, including strips that behaved like the older MiKiLED v3 lamp.",
+    "Clearer labels and copy for the LED chip option in the web interface.",
+    "The device waits for a believable network time before treating the clock as ready, which avoids strange times briefly after boot when the network was still settling."
   ],
-  "releaseDate": "2026-04-11",
+  "releaseDate": "2026-04-13",
   "updateType": "major"
 }
