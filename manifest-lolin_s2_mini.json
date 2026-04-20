@@ -1,12 +1,10 @@
 {
-  "version": "4.7.0",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.7.0/mikiled-lolin_s2_mini.bin",
-  "sha256": "6f5518aed41fb6742172b1b004fb7b00ee9bf602c13e741d1d34ad3cc8ac948f",
+  "version": "4.7.1",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.7.1/mikiled-lolin_s2_mini.bin",
+  "sha256": "96d5fb4f101a2e23cfe6a8a8957b9a01551b53915253b49d67762fece2cf47c7",
   "notes": [
-    "Choose WS2811 or WS2812B for your LED strip so colors and signal timing match your hardware, including strips that behaved like the older MiKiLED v3 lamp.",
-    "Clearer labels and copy for the LED chip option in the web interface.",
-    "The device waits for a believable network time before treating the clock as ready, which avoids strange times briefly after boot when the network was still settling."
+    "You can optionally dim the built-in screen while the terrarium lighting cycle is in night mode, and set how bright it should stay (from very dark up to full brightness), so the display is easier on the eyes in a dark room."
   ],
-  "releaseDate": "2026-04-13",
-  "updateType": "major"
+  "releaseDate": "2026-04-20",
+  "updateType": "regular"
 }
