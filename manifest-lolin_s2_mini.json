@@ -1,11 +1,14 @@
 {
-  "version": "4.7.2",
-  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.7.2/mikiled-lolin_s2_mini.bin",
-  "sha256": "59f256c45d9294ae9305463bd6fcc0b0720f3c25a3986482992b3f7bf71678c7",
+  "version": "4.8.0",
+  "url": "https://github.com/konkubino/MiKiLED-releases/releases/download/v4.8.0/mikiled-lolin_s2_mini.bin",
+  "sha256": "e4df08638b808dd8a3f7e23e4c222cb34e67587efc8711836935e3e644bc6734",
   "notes": [
-    "Wireless firmware updates from the control panel should succeed much more often, especially when the device was also checking for updates in the background at the same time.",
-    "If a download still fails, the on-screen message should be clearer than a bare \"HTTP -1\" (for example it may now say \"connection refused\" or \"read Timeout\" with a code)."
+    "Change LED, I2C, display SPI, and related GPIO pins from the web interface without reflashing (board-dependent limits still apply).",
+    "Over-the-air firmware downloads are more tolerant of slow or busy networks, with clearer progress behavior during long downloads.",
+    "The Wi-Fi configuration access point is less likely to disappear while the device reconnects to your home network after you change hotspot settings.",
+    "Logging is easier to read at a glance when diagnosing issues from Serial or the browser tools.",
+    "General reliability fixes from continued testing and review."
   ],
-  "releaseDate": "2026-04-20",
+  "releaseDate": "2026-05-15",
   "updateType": "regular"
 }
